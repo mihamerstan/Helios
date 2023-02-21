@@ -327,7 +327,7 @@ void SyntheticAnnotation::render( const char* outputdir ) {
 
         vis_RGB.setCameraPosition(camera_position.at(view), camera_lookat.at(view));
 
-        vis_RGB.plotUpdate( true );
+        vis_RGB.plotUpdate();
 
         wait(5);
 
